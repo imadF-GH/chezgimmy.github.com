@@ -1,11 +1,12 @@
 
+
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Menu from './components/Menu';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import Menu from './components/Menu.tsx';
+import Gallery from './components/Gallery.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
     return (
