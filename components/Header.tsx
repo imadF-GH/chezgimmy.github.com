@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import type { NavLink } from '../types';
-import Logo from './Logo';
+import type { NavLink } from '../types.ts';
+import Logo from './Logo.tsx';
 
 const navLinks: NavLink[] = [
     { href: '#accueil', label: 'Accueil' },
